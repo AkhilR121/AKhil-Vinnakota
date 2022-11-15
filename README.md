@@ -1,1 +1,5 @@
-# Akhil-Vinnakota
+- 👋 Hi, I’m @Akhil
+- 👀 I’m interested in coding
+- 🌱 I’m currently learning MEAN Stack Dovelopment
+- 💞️ I’m looking for a job as a fresher in software field as a Full Stack Doveloper
+- 📫 How to reach me akhilvinnakota98@gmail.com
