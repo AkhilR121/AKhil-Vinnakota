@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Bank.js"></script>
+    <link rel="stylesheet" href="Bank.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Bank Class</title>
+</head>
+<body>
+    <!-- We want three buttons
+        1.WithDraw
+        2.Deposit
+        One Input
+        3.Enter Balance
+        4.Name
+    -->
+    <main>
+        <div id="bgImg">
+            <div class="card-deck mb-3 text-center" id="seperate">
+                <div>
+                    <span id="emoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path d="M243.4 2.6l-224 96c-14 6-21.8 21-18.7 35.8S16.8 160 32 160v8c0 13.3 10.7 24 24 24H456c13.3 0 24-10.7 24-24v-8c15.2 0 28.3-10.7 31.3-25.6s-4.8-29.9-18.7-35.8l-224-96c-8.1-3.4-17.2-3.4-25.2 0zM128 224H64V420.3c-.6 .3-1.2 .7-1.8 1.1l-48 32c-11.7 7.8-17 22.4-12.9 35.9S17.9 512 32 512H480c14.1 0 26.5-9.2 30.6-22.7s-1.1-28.1-12.9-35.9l-48-32c-.6-.4-1.2-.7-1.8-1.1V224H384V416H344V224H280V416H232V224H168V416H128V224zm128-96c-17.7 0-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32s-14.3 32-32 32z"/></svg>
+                    </span><h1 class="banner">STATE BANK OF INDIA</h1>
+                </div>
+                <div class="form-group mt-3 mb-3">
+                    <input id="enterName" type="text" class="form-control mt-3 mb-3" placeholder="Enter Name">
+                    <input id="enterAmount" type="text"  class="form-control mt-3 mb-3" placeholder="Enter Amount">
+                </div>
+                <div>
+                    <button class="btn btn-primary mt-3 mb-3" onclick="withDraw()">WithDraw</button><br>
+                    <button class="btn btn-primary mt-1 mb-1" onclick="Deposit()">Deposit</button><br>
+                </div>
+                <div>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li><span id="showName"></span></li>
+                        <li><span id="TakenAmount"></span></li>
+                        <li><span id="givenAmount"></span></li>
+                        <li><span id="showTotalBalance"></span></li>
+                        <li><span id="outOfBal"></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

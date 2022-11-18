@@ -1,0 +1,40 @@
+body {
+    background-image: url('https://wallpaperboat.com/wp-content/uploads/2020/12/06/63064/pink-and-purple-11.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#seperate{
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: rgb(245, 242, 248);
+    border-radius: 10px;
+    box-shadow: rgba(167, 40, 40, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+#enterName {
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+#enterAmount {
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+#outOfBal {
+    color: red;
+}
+
+#emoji svg{
+    width: 100px; 
+    height: 100px;
+    fill: rebeccapurple;
+}
+
+.banner {
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
